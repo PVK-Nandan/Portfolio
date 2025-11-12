@@ -207,7 +207,7 @@ const Portfolio = () => {
                 {isResumeDropdownOpen && (
                   <div className="dropdown-menu">
                     <a 
-                      href="/Nandan fullstack CV.pdf"
+                      href="/NandanfullstackCV.pdf"
                       download="Nandan_Fullstack_Resume.pdf"
                       className="dropdown-item"
                       onClick={() => setIsResumeDropdownOpen(false)}
