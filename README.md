@@ -7,10 +7,6 @@ A modern, responsive, and visually stunning portfolio website built with React a
 ![Next.js](https://img.shields.io/badge/Next.js-14.x-000000?style=for-the-badge&logo=next.js)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
 
-## 📸 Preview
-
-![Portfolio Screenshot](your-screenshot-url-here)
-
 ## ✨ Features
 
 ### 🎨 Modern UI/UX
@@ -277,7 +273,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 **Pakki Venkata Kesari Nandan**
 
 - GitHub: [@PVK-Nandan](https://github.com/PVK-Nandan)
-- LinkedIn: [Nandan Pakki V K](https://www.linkedin.com/in/pakki-v-k-nandan-01639b253/)
+- LinkedIn: [Nandan Pakki V K]([https://www.linkedin.com/in/pakki-v-k-nandan-01639b253/])
 - Email: pakkinandan09@gmail.com
 
 ## 🙏 Acknowledgments
