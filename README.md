@@ -273,7 +273,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 **Pakki Venkata Kesari Nandan**
 
 - GitHub: [@PVK-Nandan](https://github.com/PVK-Nandan)
-- LinkedIn: [Nandan Pakki V K]([https://www.linkedin.com/in/pakki-v-k-nandan-01639b253/])
+- LinkedIn: [Pakki V.K Nandan](https://www.linkedin.com/in/pakki-v-k-nandan-01639b253)
 - Email: pakkinandan09@gmail.com
 
 ## 🙏 Acknowledgments
