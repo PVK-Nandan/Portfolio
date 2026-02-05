@@ -29,10 +29,10 @@ const Portfolio = () => {
     const handleMouseMove = (e) => {
       setMousePosition({ x: e.clientX, y: e.clientY });
     };
-    
+
     const handleScroll = () => {
       setScrollY(window.scrollY);
-      
+
       const sections = [
         { name: 'home', ref: homeRef },
         { name: 'about', ref: aboutRef },
@@ -61,7 +61,7 @@ const Portfolio = () => {
     window.addEventListener('mousemove', handleMouseMove);
     window.addEventListener('scroll', handleScroll);
     document.addEventListener('mousedown', handleClickOutside);
-    
+
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
       window.removeEventListener('scroll', handleScroll);
@@ -77,7 +77,7 @@ const Portfolio = () => {
       achievements: achievementsRef,
       contact: contactRef
     };
-    
+
     const ref = refs[sectionName];
     if (ref.current) {
       ref.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -168,11 +168,11 @@ const Portfolio = () => {
       <div className="portfolio-container">
         {/* Animated Background */}
         <div className="animated-background" />
-        
+
         {/* Particle System */}
         <div className="particle-container">
           {particles.map(p => (
-            <div 
+            <div
               key={p.id}
               className="particle"
               style={{
@@ -186,7 +186,7 @@ const Portfolio = () => {
 
         {/* Background Effects */}
         <div className="background-effects">
-          <div 
+          <div
             className="cursor-glow"
             style={{
               left: `${mousePosition.x}px`,
@@ -205,7 +205,7 @@ const Portfolio = () => {
         <nav className={`navbar ${scrollY > 50 ? 'scrolled' : ''}`}>
           <div className="nav-content">
             <div className="logo">PVK NANDAN</div>
-            
+
             <div className="desktop-menu">
               {['Home', 'About', 'Projects', 'Achievements', 'Contact'].map((item) => (
                 <button
@@ -278,26 +278,26 @@ const Portfolio = () => {
                 <div className="profile-glow" />
               </div>
             </div>
-            
+
             <h1 className="hero-title">
               <span className="title-line">Hi, I'm</span>
               <span className="title-name">Pakki Venkata Kesari</span>
               <span className="title-name">Nandan</span>
             </h1>
-            
+
             <div className="hero-subtitle-wrapper">
               <Sparkles className="sparkle-icon" size={24} />
               <p className="hero-subtitle">Full Stack Developer & ML Enthusiast</p>
               <Sparkles className="sparkle-icon" size={24} />
             </div>
-            
+
             <div className="social-links">
               <a href="https://github.com/PVK-Nandan" target="_blank" rel="noopener noreferrer" className="social-btn github-btn">
                 <Github size={20} />
                 <span>GitHub</span>
                 <div className="btn-glow" />
               </a>
-              <a href="https://www.linkedin.com/in/nandan-pakki-v-k-01639b253/" target="_blank" rel="noopener noreferrer" className="social-btn linkedin-btn">
+              <a href="https://www.linkedin.com/in/pakki-v-k-nandan-01639b253/" target="_blank" rel="noopener noreferrer" className="social-btn linkedin-btn">
                 <Linkedin size={20} />
                 <span>LinkedIn</span>
                 <div className="btn-glow" />
@@ -323,7 +323,7 @@ const Portfolio = () => {
               <Zap className="title-icon" size={40} />
               About Me
             </h2>
-            
+
             <div className="about-grid">
               <div className="glass-card education-card">
                 <div className="card-glow cyan-glow" />
@@ -413,7 +413,7 @@ const Portfolio = () => {
               <Sparkles className="title-icon" size={40} />
               Featured Projects
             </h2>
-            
+
             <div className="projects-grid">
               {projects.map((project, index) => (
                 <div key={index} className={`project-card glass-card project-${project.color}`}>
@@ -450,7 +450,7 @@ const Portfolio = () => {
               <Award className="title-icon" size={40} />
               Achievements
             </h2>
-            
+
             <div className="achievements-grid">
               {achievements.map((achievement, index) => (
                 <div key={index} className="achievement-card glass-card">
@@ -477,7 +477,7 @@ const Portfolio = () => {
               <Mail className="title-icon" size={40} />
               Let's Connect
             </h2>
-            
+
             <p className="contact-description">
               I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
             </p>
@@ -488,7 +488,7 @@ const Portfolio = () => {
                 <span>Send Email</span>
                 <div className="btn-glow" />
               </a>
-              <a href="https://www.linkedin.com/in/nandan-pakki-v-k-01639b253/" target="_blank" rel="noopener noreferrer" className="contact-btn secondary-btn">
+              <a href="https://www.linkedin.com/in/pakki-v-k-nandan-01639b253/" target="_blank" rel="noopener noreferrer" className="contact-btn secondary-btn">
                 <Linkedin size={24} />
                 <span>Connect on LinkedIn</span>
                 <div className="btn-glow" />
